@@ -18,6 +18,7 @@
   "homepage": "https://github.com/eldoy/stre#readme",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.911.0",
+    "@aws-sdk/s3-presigned-post": "^3.911.0",
     "mime-types": "^3.0.1"
   }
 }

@@ -41,6 +41,23 @@ var opt = {
   prefix: ''
 }
 await s3.list(client, opt)
+
+// Remove file
+var opt = {
+  bucket: 'bucket',
+  key: 'images/file.jpg'
+}
+await s3.remove(client, opt)
+
+// Presign URL for uploads
+var opt = {
+  bucket: 'bucket',
+  key: 'images/file.jpg',
+  expires: 60,
+  conditions: [['eq', '$Content-Type', 'image/jpg]]
+}
+
+var result = await s3.presign(client, opt)
 ```
 
 Config can be defined from the command line:
