@@ -1,5 +1,5 @@
 {
-  "name": "stre",
+  "name": "esstre",
   "version": "0.0.1",
   "description": "S3 client",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eldoy/stre.git"
+    "url": "git+https://github.com/eldoy/esstre.git"
   },
   "author": "Vidar Eldøy <vidar@eldoy.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eldoy/stre/issues"
+    "url": "https://github.com/eldoy/esstre/issues"
   },
-  "homepage": "https://github.com/eldoy/stre#readme",
+  "homepage": "https://github.com/eldoy/esstre#readme",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.911.0",
     "@aws-sdk/s3-presigned-post": "^3.911.0",

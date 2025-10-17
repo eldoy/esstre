@@ -1,4 +1,4 @@
-# Stre S3 Client
+# Esstre S3 Client
 
 This is a thin wrapper around the Amazon S3 SDK client.
 
@@ -11,7 +11,7 @@ npm i stre
 ### Usage
 
 ```js
-var s3 = require('stre')
+var s3 = require('esstre')
 var config = {
   region: 'eu-north-1',
   accessKeyId: 'my_access_key_id,
