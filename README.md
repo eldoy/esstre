@@ -14,8 +14,10 @@ npm i stre
 var s3 = require('esstre')
 var config = {
   region: 'eu-north-1',
-  accessKeyId: 'my_access_key_id,
-  secretAccessKey: 'my_secret_access_key'
+  credentials: {
+    accessKeyId: 'my_access_key_id,
+    secretAccessKey: 'my_secret_access_key'
+  }
 }
 var client = await s3.client(config)
 
