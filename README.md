@@ -4,8 +4,8 @@ This is a thin wrapper around the Amazon S3 SDK client.
 
 ### Install
 
-```
-npm i stre
+```sh
+npm i esstre
 ```
 
 ### Usage
@@ -63,7 +63,7 @@ var result = await s3.presign(client, opt)
 ```
 
 Config can be defined from the command line:
-```
+```sh
 AWS_REGION=
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
